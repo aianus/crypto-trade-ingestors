@@ -1,0 +1,22 @@
+{
+  "name": "bitfinex-trade-producer",
+  "private": true,
+  "license": "UNLICENSED",
+  "version": "0.0.1",
+  "description": "Dump Bitfinex trade stream into kinesis",
+  "main": "main.js",
+  "dependencies": {
+    "aws-sdk": "^2.1.4",
+    "bitfinex-api-node": "^0.2.8",
+    "bugsnag": "1.7.0",
+    "dotenv": "2.0.0",
+    "underscore": "1.8.3"
+  },
+  "engines": {
+    "node": "6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  }
+}
