@@ -6,7 +6,6 @@
   "description": "Dump GDAX trade stream into kinesis",
   "main": "main.js",
   "dependencies": {
-    "async": "^2.0.0-rc.5",
     "aws-sdk": "^2.1.4",
     "bugsnag": "1.7.0",
     "coinbase-exchange": "0.2.1",
