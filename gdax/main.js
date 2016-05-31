@@ -59,6 +59,10 @@ gdax_client.getProducts(function(err, resp, data) {
   for (var product in products) {
     var ws = new gdax.WebsocketClient(product);
     ws.on('message', processMessage);
+    ws.on('close', function() {
+      console.log("Websocket closed");
+      process.exit(1);
+    });
     websockets.push(ws);
   }
 });
