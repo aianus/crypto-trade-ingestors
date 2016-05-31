@@ -1,0 +1,24 @@
+{
+  "name": "gdax-trade-producer",
+  "private": true,
+  "license": "UNLICENSED",
+  "version": "0.0.1",
+  "description": "Dump GDAX trade stream into kinesis",
+  "main": "main.js",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "aws-sdk": "^2.1.4",
+    "bugsnag": "1.7.0",
+    "coinbase-exchange": "0.2.1",
+    "dotenv": "2.0.0",
+    "moment-timezone": "0.5.4",
+    "underscore": "1.8.3"
+  },
+  "engines": {
+    "node": "6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  }
+}
