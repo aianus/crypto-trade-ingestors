@@ -1,0 +1,23 @@
+{
+  "name": "btcc-trade-producer",
+  "private": true,
+  "license": "UNLICENSED",
+  "version": "0.0.1",
+  "description": "Dump BTCC trade stream into kinesis",
+  "main": "main.js",
+  "dependencies": {
+    "aws-sdk": "^2.1.4",
+    "bugsnag": "1.7.0",
+    "dotenv": "2.0.0",
+    "moment": "^2.13.0",
+    "socket.io-client": "^1.4.6",
+    "underscore": "1.8.3"
+  },
+  "engines": {
+    "node": "6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  }
+}
