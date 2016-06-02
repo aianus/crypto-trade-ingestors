@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({silent: true});
 
 var   gdax = require('coinbase-exchange'),
        aws = require('aws-sdk'),

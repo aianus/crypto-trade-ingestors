@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({silent: true});
 
 var     bf = require('bitfinex-api-node'),
        aws = require('aws-sdk'),

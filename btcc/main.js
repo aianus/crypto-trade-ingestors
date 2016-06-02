@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({silent: true});
 
 var socket = require('socket.io-client')('https://websocket.btcchina.com/');
        aws = require('aws-sdk'),
