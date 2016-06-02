@@ -1,0 +1,11 @@
+ruby '2.3.1'
+source 'https://rubygems.org'
+
+gem 'oanda_bank'
+gem 'aws-sdk'
+gem 'dotenv'
+gem 'bugsnag'
+
+group :development, :test do
+  gem 'pry-byebug', '~> 3.3'
+end
