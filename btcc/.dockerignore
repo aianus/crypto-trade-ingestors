@@ -34,3 +34,6 @@ node_modules
 
 # Env variables
 .env
+
+deploy_to_ecr.sh
+.gitignore
