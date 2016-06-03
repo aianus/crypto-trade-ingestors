@@ -34,3 +34,4 @@ node_modules
 
 # Env variables
 .env
+task_definition.json

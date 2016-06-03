@@ -37,3 +37,4 @@ node_modules
 
 deploy_to_ecr.sh
 .gitignore
+task_definition.json

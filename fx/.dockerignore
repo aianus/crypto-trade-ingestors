@@ -52,6 +52,7 @@ build-iPhoneSimulator/
 # Env variables
 .env
 
+task_definition.json
 deploy_to_ecr.sh
 .gitignore
 
